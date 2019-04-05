@@ -1,0 +1,106 @@
+/* comment */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #d9d9d9;
+}
+
+/*  */
+.container {
+    background: linear-gradient(50deg,#a9dc7b,#00796b);  
+    .mask {
+        background-image: url('../../img/bg.png');
+        background-size: 100%;
+        .header {
+            display: flex;
+            align-items: center;
+            padding: 0 20px 0 20px;
+            width: 100%;
+            height: 80px;
+            background: linear-gradient(50deg,#a9dc7b,#00796b);
+            box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 
+                        0 2px 2px 0 rgba(0,0,0,.14), 
+                        0 1px 5px 0 rgba(0,0,0,.12);
+            .header_icon {
+                display: flex;
+                align-items: center;
+                img {
+                    width: 45px;
+                    height: 45px;
+                }
+                h5 {
+                    display: inline-block;
+                    margin-left: 10px;
+                    font-size: 1.5rem;
+                    color: #fff;
+                }
+            }
+            .header_btn {
+                margin-left: 50px;
+                margin-right: auto;;
+                height: 2em;
+                min-width: 9.1em;
+                text-align: center;
+                font-size: 1.125em;
+                line-height: 2em;
+                padding: 0 .5em;
+                border-radius: 4px;
+                color: #fff;
+                border: 1px solid #fff;
+                &:hover {
+                    color: #a9dc7b;
+                    background-color: #fff;
+                    transition: .3s;
+                }
+            }
+            .header_right>li {
+                float: right;
+                margin-right: 40px;
+                &:nth-child(1) {
+                    margin-right: 0;
+                }
+                a {
+                    color: #fff;
+                    line-height: 36px;
+                    font-size: 17px;
+                }
+                .signin {
+                    height: 36px;
+                    font-weight: 400;
+                    text-align: center;
+                    border: 1px solid #fff;
+                    padding: 8px 20px;
+                    border-radius: 18px;
+                    line-height: 36px;
+                    font-size: 17px;
+                    &:hover {
+                        background-color: #fff;
+                        color: #00796b;
+                        transition: .3s;
+                    }
+                }
+            }
+        }
+        .content {
+            margin-top: 100px;
+            h1 {
+                margin-top: 150px;
+                font-size: 3.125em;
+                font-weight: 400;
+                color: #fff;
+                text-align: center;
+                margin: 0 0 .4em;
+            }
+        }
+    }
+    
+}
+
+
